@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { PhaserComponent } from './phaser/phaser.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PhaserComponent
+    PhaserComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
