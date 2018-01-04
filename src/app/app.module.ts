@@ -1,10 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
 import { PhaserComponent } from './phaser/phaser.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -13,7 +13,8 @@ import { PhaserComponent } from './phaser/phaser.component';
     PhaserComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
