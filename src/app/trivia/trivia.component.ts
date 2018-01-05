@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Trivia } from '../trivia';
 
 @Component({
   selector: 'app-trivia',
@@ -6,6 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./trivia.component.css']
 })
 export class TriviaComponent implements OnInit {
+
+  quiz = 'Angular quiz';
+  instructions = 'Answer the question to the best of your knowledge.'
+  // choices = 'A programming language'
+
+  trivia: Trivia = {
+    id: 1,
+    name: 'What is AngularJS?',
+    choice: 'A programming language'
+  };
 
   constructor() { }
 
