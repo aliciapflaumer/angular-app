@@ -9,13 +9,7 @@ export class TriviaComponent implements OnInit {
 
   quiz = 'Angular quiz';
   instructions = 'Answer the question to the best of your knowledge.'
-  // choices = 'A programming language'
-
-  trivia: Trivia = {
-    id: 1,
-    name: 'What is AngularJS?',
-    choice: 'A programming language'
-  };
+  question = 'What is AngularJS?'
 
   constructor() { }
 
