@@ -3,18 +3,20 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { PhaserComponent } from './phaser/phaser.component';
+import { ListComponent } from './list/list.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { TriviaComponent } from './trivia/trivia.component';
+import { SurveysComponent } from './surveys/surveys.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PhaserComponent,
+    ListComponent,
     AboutComponent,
-    TriviaComponent
+    TriviaComponent,
+    SurveysComponent
   ],
   imports: [
     BrowserModule,
