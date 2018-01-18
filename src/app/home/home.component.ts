@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   welcome : string;
+  content : string;
+
   constructor() {
     this.welcome = "Welcome to the home page";
     this.content = "Take a survey by navigating from the top menu";
