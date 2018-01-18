@@ -18,7 +18,12 @@ export class SurveysComponent {
 
   onSubmitted = false;
 
+  submitMessage = '';
+
+  onSubmit() {
+    this.submitMessage = 'You made your selection';
+  }
   // Remove this when I'm done
-  get diagnostic() { return JSON.stringify(this.model); }
+  // get diagnostic() { return JSON.stringify(this.model); }
 
 }
