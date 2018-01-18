@@ -1,3 +1,17 @@
-<p>
-  surveys works!
-</p>
+<h1>Your Surveys</h1>
+
+<div class="container">
+    <h2>Favorite food survey</h2>
+    <form>
+      <div class="form-group">
+        <label for="question">What's your favorite food?'</label><br>
+        <label for="options">Options:</label>
+        <select class="form-control" id="options" required>
+          <option *ngFor="let option of options" [value]="option">{{option}}</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+
+    </form>
+</div>
