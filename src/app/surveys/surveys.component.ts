@@ -9,6 +9,7 @@ import { Survey } from '../survey';
 })
 
 export class SurveysComponent {
+  welcome : string;
 
   options = ['Pizza', 'Chicken', 'Taco'];
 
@@ -23,7 +24,9 @@ export class SurveysComponent {
   onSubmit() {
     this.submitMessage = 'You made your selection';
   }
-  // Remove this when I'm done
-  // get diagnostic() { return JSON.stringify(this.model); }
+
+  constructor() {
+    this.welcome = "Welcome to the survey page";
+  }
 
 }
