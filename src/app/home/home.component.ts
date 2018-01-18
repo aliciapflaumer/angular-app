@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
 
   constructor() {
     this.welcome = "Welcome to the home page";
-    this.content = "Take a survey by navigating from the top menu";
+    this.content = "This app was built with Angular 2 as a tool to learn the technology.";
    }
 
   ngOnInit() {

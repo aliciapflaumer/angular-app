@@ -1,0 +1,12 @@
+.container {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
+
+.container p {
+  margin: 15px 0 15px 0;
+}

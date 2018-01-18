@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   welcome : string;
+
   constructor() {
     this.welcome = "Welcome to the about page";
    }
