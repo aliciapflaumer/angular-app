@@ -1,1 +1,11 @@
+.nav a {
+  background-color: #000;
+  border-radius: 5px;
+  color: #fff;
+  margin: 5px 5px 0 5px;
+}
 
+.nav a:hover {
+  background-color: #fff;
+  color: #000;
+}

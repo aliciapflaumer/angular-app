@@ -8,6 +8,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { TriviaComponent } from './trivia/trivia.component';
 import { SurveysComponent } from './surveys/surveys.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SurveysComponent } from './surveys/surveys.component';
     ListComponent,
     AboutComponent,
     TriviaComponent,
-    SurveysComponent
+    SurveysComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
