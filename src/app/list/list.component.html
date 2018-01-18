@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>{{welcome}}</h1>
+  <p>{{content}}</p>
+  <h2>My favorite hero is: {{myHero.name | uppercase}}</h2>
+  <ul>
+    <!-- using ngfor to dsplay an array of items -->
+    <!-- <li *ngFor="let hero of heroes">{{hero.name}}</li> -->
+    <li>
+      <select>
+        <option *ngFor="let hero of heroes">
+        {{hero.id}}. {{hero.name}}
+        </option>
+      </select>
+    </li>
+  </ul>
+  <!-- use ngIf to display a message if there are more than 3 names in list -->
+  <!-- <p *ngIf="heroes.length > 3">There are many heroes!</p> -->
+</div>
