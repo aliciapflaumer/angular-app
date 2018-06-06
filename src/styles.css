@@ -4,3 +4,21 @@ body {
   background-size: cover;
   color: #fff;
 }
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+footer a:link {
+  color: #fff;
+}
+
+footer hr {
+  background-color: yellow;
+  border: 0;
+  height: 2px;
+}
