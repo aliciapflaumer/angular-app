@@ -20,8 +20,8 @@ export class ListComponent implements OnInit {
   myHero = this.heroes[0];
 
   constructor() {
-    this.welcome = "List of Superheroes";
-    this.content = "Objective: To show how to display data from an array of objects."
+    this.welcome = "Who is your favorite Superhero?";
+    this.content = "Objective: To show how to display data from an array of objects. Give it a try and select a new hero from the dropdown list."
   }
 
   ngOnInit() {
