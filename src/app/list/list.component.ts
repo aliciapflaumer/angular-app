@@ -9,6 +9,7 @@ import { Hero } from '../hero';
 export class ListComponent implements OnInit {
   welcome : string;
   content : string;
+  selectedValue : string;
 
   heroes = [
     new Hero(1, 'Wonder Woman'),
